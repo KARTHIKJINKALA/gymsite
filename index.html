@@ -20,18 +20,21 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 8vh;
             text-shadow: 5px 5px 10px;
-            animation-name: rotate;
+            animation-name: bgchange;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-direction: alternate-reverse;
             animation-timing-function: linear;
     }
-        @keyframes rotate{
+        @keyframes bgchange{
             0%{
                transform: rotateX(0deg);
             }
-            0%{
-               transform: rotateY(360deg);
+            50%{
+               transform: translateX(2px);
+            }
+            100%{
+               transform: translateX(-100px);
             }
 
         }
@@ -770,21 +773,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         <div class="class1">
             <img src="classes-1.jpg" alt="" >
             <div class="class1a">
-            <h4>BODYBUILDING </h4>
+            <h4>Bodybuilding </h4>
             </div>
         </div>
 
         <div class="class2">
         <img src="classes-2.jpg" alt="">
         <div class="class2a">
-            <h4>GYM</h4>
+            <h4>Gym</h4>
         </div>
         </div>
 
        <div class="class3">
             <img src="classes-3.jpg" alt="" >
             <div class="class3a">
-                <h4>YOGA</h4>
+                <h4>Yoga</h4>
             </div>
         </div>
 
@@ -799,14 +802,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         <div class="class5">
             <img src="classes-5.jpg" alt="">
             <div class="class5a">
-                <h4>WEIGHT LIFTING</h4>
+                <h4>Weight lifting</h4>
             </div>
         </div>
 
         <div class="class6">
             <img src="classes-6.jpg" alt="">
             <div class="class6a">
-                <h4>YOGA</h4>
+                <h4>Boxing</h4>
             </div>
         </div>
 
