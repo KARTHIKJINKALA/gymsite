@@ -447,7 +447,7 @@ font-size: 3vh !important;
 .gallery1{
    
     display: grid;
-    grid-template-columns: 130px !important;
+    grid-template-columns: 300px !important;
     grid-template-rows: 300px !important;
    
     

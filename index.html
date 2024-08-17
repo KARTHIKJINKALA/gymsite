@@ -6,23 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="external.css">
-    <link rel="stylesheet" href="external2.css">
+    <!-- <link rel="stylesheet" href="external.css"> -->
+    <!-- <link rel="stylesheet" href="external2.css"> -->
 
     <style>
         
      
         /* This is header */
         .title>h1{
-            color:blue;
+            color:rgb(255, 0, 89);
+            
     
-            width: 10vw;
+           
             
             /* background-image: linear-gradient(to right,black,white,darkkhaki,darkred); */
             font-family: 'Times New Roman', Times, serif;
-            font-size: 8vh;
+            font-size: 5vh;
             text-shadow: 5px 5px 10px;
-            animation-name: bgchange;
+            /* animation-name: bgchange;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-direction: alternate-reverse;
@@ -37,24 +38,28 @@
             }
             100%{
                transform: translateX(-100px);
-            }
+            } */
 
         }
         /* links */
         .links>a{
             color: red;
             text-decoration: none;
-            padding: 3%;
+            padding: 2%;
             font-family: cursive;
-            font-size: 3vh;
+            font-size: 2.5vh;
+           
+            
         }
         .header{
-            display: flex;
+            width: 100%;
+            border: 2px solid rgb(0, 55, 255);
+           text-align: center;
             /* background-image: linear-gradient(to top, white,lightblue); */
             column-gap: 20%;
-            position: sticky;
+            /* position: sticky; */
             align-items: center;
-            top:0%;
+            /* top:0%; */
             width: 98vw;
             box-shadow: 3px 1px 20px 1px rgb(0, 255, 64);
             z-index: 1;
@@ -69,8 +74,10 @@
             
         }
         .links{
-            display: flex;
-            align-items: center;
+        
+            text-align: center;
+            position: sticky;
+            top:0px;
 
         }
         .card1{
@@ -85,10 +92,10 @@
             background-attachment: fixed;
         }
         .text1>h1{
-            color: darkkhaki;
-            background-image: linear-gradient(to right,black,white,darkkhaki,darkred);
+            color: black;
+            background-image: linear-gradient(to right,lightskyblue,white,lightgreen);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-           font-size: 15vh;
+           font-size: 10vh;
 
            animation-name: rotate;
             animation-duration: 3s;
@@ -110,7 +117,7 @@
 
         .text1>p{
             height: 2vh;
-            color:white;
+            color:lightskyblue;
             font-family: cursive;
             font-size: 4vh;
             /* animation-name: translate;
@@ -144,7 +151,7 @@
 
         .sec3a{
             
-            height: 100vh;
+            height: 150vh;
             
             background-image: linear-gradient(to left,white,darkkhaki,black,darkred);
             display: flex;
@@ -173,9 +180,11 @@
         }
         .text3>p{
             font-family: cursive;
-            color: white;
-            font-size: 4vh;
+            color:lightskyblue;
+            font-size: 3.8vh;
             text-align: center;
+            width:23vw;
+            height:20vh;
             
         }
         .text3>h1{
@@ -246,7 +255,7 @@
      background-image: linear-gradient(to right,white,darkkhaki,black,darkred);
    
      
-     height: 140vh;
+     height: 100vh;
   
  }
  .class{
@@ -256,7 +265,7 @@
  }
  .class>h1{
      
-     color: white;
+     color: lightskyblue;
      font-family: cursive;
      font-size: 6vh;
     text-align: center;
@@ -271,8 +280,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
  .classes{
      display: grid;
-     grid-template-columns: 400px 400px 400px;
-     grid-template-rows: 400px ;
+     grid-template-columns:1fr 1fr 1fr;
+     grid-template-rows:300px ;
     row-gap: 2%;
     column-gap: 2%;
     justify-content: center;
@@ -288,7 +297,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
    
  }
  .class1>img,.class2>img,.class3>img,.class4>img,.class5>img,.class6>img{
-     width: 100%;
+     width: 60%;
  }
      
      
@@ -296,7 +305,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
  
  .class1a,.class2a,.class3a,.class4a,.class5a,.class6a{
-     color:black;
+     color:lightcyan;
      /* background-image: linear-gradient(to bottom,white,pink); */
      font-family: cursive;
      background: rgba( 255, 255, 255, 0.35 );
@@ -308,7 +317,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 
-animation-name: rotate;
+/* animation-name: rotate;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-direction: alternate-reverse;
@@ -323,7 +332,7 @@ animation-name: rotate;
                transform: rotateX(90deg);
             }
 
-        }
+        } */}
 
  
  
@@ -340,7 +349,7 @@ animation-name: rotate;
         .team>h1{
             background-image: linear-gradient(to right,white,darkkhaki,black,darkred);
            
-           color:white;
+           color:lightskyblue;
             font-family:cursive;
             background: rgba( 255, 255, 255, 0.35 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -375,7 +384,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         }
         .tname1>h1{
             
-            background-image: linear-gradient(to right,white,darkred);
+            background-image: linear-gradient(to right,white,yellow);
+            color-scheme: lightskyblue;
         }
         .teama>img,.teamb>img{
             height: 90vh;
@@ -419,7 +429,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .section6{
             background-image: linear-gradient(to right,white,darkkhaki,black,darkred);
-            height: 150vh;
+            height: 100vh;
         }
         .gallery{
             text-align: center;
@@ -430,8 +440,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         }
         .gallery>h1{
             /* background-image: linear-gradient(to right,white,black,darkkhaki,darkred); */
-            color: white;
-            font-size: 6vh;
+            color: lightskyblue;
+            font-size: 4vh;
             font-family: cursive;
             text-decoration-line: underline;
             background: rgba( 255, 255, 255, 0.35 );
@@ -445,16 +455,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
         .gallery1{
             display: grid;
-            grid-template-columns: 200px 200px 200px;
-           
-            gap: 8%;
-            justify-content: center;
-            align-content: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5%;
+            margin-left: 8%;
+
+        
             
-            background-image: linear-gradient(to left,white,darkkhaki,silver,darkred);
-           
-            height: 150vh;
-            
+
             /* animation-name: transform;
             animation-duration: 3s;
             animation-fill-mode: both;
@@ -480,15 +487,18 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
         } */
+        
+
+        
 
 
 
 
         .gimage1>img,.gimage2>img,.gimage3>img,.gimage4>img,.gimage5>img,.gimage6>img{
-            height: 50vh;
-            width: 20vw;
+            height: 40vh;
+            width: 15vw;
             filter: drop-shadow(1px 1px 20px rgb(128, 128, 0) );
-            animation-name: rotate;
+            /* animation-name: rotate;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-direction: alternate-reverse;
@@ -501,7 +511,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             }
             100%{
                transform: rotateY(90deg);
-            }
+            } */
 
         }
             
@@ -521,7 +531,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         /*  */
 
         .section7{
-            margin-top: 3.7%;
+            /* margin-top: 3.7%; */
             height: 100vh;
             background-image: linear-gradient(to right,black,white,darkkhaki,darkred);
             
@@ -529,8 +539,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
       
        
         .subscribe>h1{
-            color:white;
-            font-size: 7vh;
+            color:lightskyblue;
+            font-size: 5vh;
             font-family: cursive;
             text-align: center;
             background: rgba( 255, 255, 255, 0.35 );
@@ -608,6 +618,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             font-family: cursive;
             font-size: 6vh;
             text-align: center;
+            color: lightskyblue;
             background: rgba( 255, 255, 255, 0.35 );
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 20px );
@@ -620,8 +631,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
          }
          .marq1>img{
             height:20vh;
+            width: 15vw;
            
-            animation-name: transform;
+            /* animation-name: transform;
             animation-duration: 5s;
             animation-iteration-count: infinite;
             animation-fill-mode: both;
@@ -640,7 +652,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             }
             100%{
                 transform: translateX(400px);
-            }
+            } */
 
             
             
@@ -657,7 +669,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
          .section9>h1{
             font-size: 6vh;
             font-family: cursive;
-            color: black;
+            color:lightskyblue;
             text-align: center;
             background: rgba( 255, 255, 255, 0.35 );
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -699,6 +711,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         <div class="title">
             <h1>FITCLUB</h1>
         </div>
+        </div>
+
         <div class="links">
             <a href="#home">HOME</a>
             <a href="#about">ABOUTUS</a>
@@ -708,7 +722,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             <a href="#subscribe">SUBSCRIBE</a>
             <a href="#contact">CONTACT</a>
         </div>
-    </div>
+    
+    
 
     
    <div class="section1" id="home">
@@ -753,7 +768,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         <div class="sec3a">
         <div class="text3">
             <h1>About</h1>
-            <p>At fitx, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, Medical & lifestyle care hassle-free.#BeBetterEveryDay</p>
+            <p>At fitx, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, Medical & lifestyle care hassle-free</p>
     
         </div>
         <div class="image3">
@@ -852,26 +867,34 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             <h1>OUR GALLERY</h1>
         </div>
         <div class="gallery1">
+
             <div class="gimage1">
                 <img src="pexels-cesar-galeao-1673528-3253500.jpg" alt="">
             </div>
+
             <div class="gimage2">
                 <img src="gy2.jpeg" alt="">
             </div>
+
             <div class="gimage3">
                 <img src="pexels-pixabay-50597.jpg" alt="">
             </div>
-            <div class="gimage4">
-                <img src="pexels-leonardho-1552103.jpg" alt="">
-            </div>
-            <div class="gimage5">
-                <img src="pexels-timothy-220722-700392.jpg" alt="">
-            </div>
-            <div class="gimage6">
-                <img src="pexels-victorfreitas-791765.jpg" alt="">
-            </div>
+                
+                <div class="gimage4">
+                    <img src="pexels-leonardho-1552103.jpg" alt="">
+                </div>
+
+                <div class="gimage5">
+                    <img src="pexels-timothy-220722-700392.jpg" alt="">
+                </div>
+
+                <div class="gimage6">
+                    <img src="pexels-victorfreitas-791765.jpg" alt="">
+                </div>
         </div>
-      </div>
+    </div>
+      
+      
 
 
 
